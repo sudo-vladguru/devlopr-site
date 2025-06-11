@@ -1,79 +1,74 @@
-title: devlopr
-subtitle: A Portfolio Jekyll Theme Built for Developers
+title: Vlad Minakov
+subtitle: Персональный сайт
 description: >- # this means to ignore newlines until "baseurl:"
-  devlopr-jekyll is a beautiful Jekyll Theme Built For Developers, which is optimized for speed and readability.
+  Добро пожаловать на личный сайт Владислава Минакова.
 
 url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 
 # Navigation
 urls:
-    - text: Home
+    - text: Главная
       url: /
-    - text: About
+    - text: Обо мне
       url: /about
-    - text: Blog
+    - text: Блог
       url: /blog
-    - text: Gallery
-      url: /gallery
-    - text: Shop
-      url : /shop
-    - text: Contact
-      url : /contact
+
 
 
 # Edit Author details (For multi authors check _data/authors.yml)
 
 author_logo: profile.png
-author: John Doe
-author_bio: Hi, my name is John Doe. I built this site using devlopr-jekyll :D
-author_email: "mail@sujaykundu.com"
-author_location: India
-author_website_url: "https://sujaykundu.com"
-typewrite-text: devlopr is a jekyll framework built for developers. You can edit this in _config.yml file
-hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
+author: Влад Минаков
+author_bio: Привет. Меня зовут Владислав, я - системный администратор, но работал и учителем информатики и владельцем бизнеса. Кроме того в сфере моих интересов также информационная безопасность, а еще я интересуюсь всеми современными технологиями - от нейросетей до космоса
+author_email: "write@vladgu.ru"
+author_location: Россия
+author_website_url: "https://vladgu.ru"
+typewrite-text: Зачем этот сайт? - спросите вы. Потому что могу - отвечу я. Потому что я не какая-то важная персона, чтобы  людям нужен был аж целый сайт для того, чтобы узнавать новости обо мне. Да, к тому же, я предпочитаю жить максимально приватной жизнью, потому что всё, написанное в интернете, может быть использовано против меня. Кстати, насколько длинной может быть эта строка? Не знаете? И я не знаю. Значит, продолжим. О чем это я? Ах да, сайт. Вот он. Спасибо, что зашли на этот сайт и помайнили мне биткойнов. Шутка. Я не злодей какой-то, чтобы встраивать майнеры в сайт. Наоборот - моя цель - это бороться с людьми, встраивающими майнеры туда, куда не просят. Заочно бороться. Такие дела. Надеюсь, вы устали читать эту белиберду и не дошли до этого места, поэтому прямо сейчас я напишу мастер-пароль от моего менеджера паролей. Вот он - 12345! Шутка. Да, это не смешно. Но вы же все равно до этого момента не дочитали, значит не будете осуждающе мотать головой и думать, какой идиот этот Влад Минаков. Вот и замечательно! Теперь я могу закончить писать и заняться чем-нибудь важным. Спасибо, что посетили мой веб-сайт в информационно-коммуникационной сети Интернет. До новых встреч на моем веб-сайте в информационно-коммуникационной сети Интернет! Пока! P.S. Если вы обнаружите ошибки на моем сайте, то знайте, что на самом деле это неошибки - а запрограммированный, тщательно выверенный функционал, который я специально добавил, чтобы сделать сайт необычным. Но вы все равно напишите мне об этом на почту, указанную на страничке с контактами. Если конечно мой особый функционал не связан с ней. Ну теперь точно всё. До свидания!
+hero_cover_img: cover.jpg
 
 # Experiences
 author_work_experiences:
-            - company_name: Google
-              company_logo: google.png
-              company_url: https://google.com
-              designation: Software Engineer
-              description: Worked on various Google Products
+            - company_name: ИП Минаков
+              company_logo: dakota.png
+              company_url: https://dakota64.ru
+              designation: Индивидуальный предприниматель
+              description: Владелец бизнеса, создатель и мейнтейнер IT-инфраструктуры розничной сети магазинов
               visibility: true
-            - company_name: Microsoft
-              company_logo: microsoft.png
-              company_url: https://microsoft.com
-              designation: Azure Developer
-              description: Worked on various Azure Cloud Products
+            - company_name: Гимназия 31
+              company_logo: gym31.png
+              company_url: https://gym31.ru
+              designation: Программист и учитель информатики
+              description: Монтаж и настройка локальной сети, развертывание домена Windows с Active Directory файл-сервером, DNS, DHCP и проч., создание и обновление нескольких веб-сайтов (организации, электронной газеты), поддержка пользователей. Параллельно обучение детей информатике
               visibility: true
 
 # Education
 author_education_details:
-              - college_logo: mit.png
-                college_name: MIT
-                college_url: https://mit.org
-                college_degree: CS Engineer
-                description: Bachelor of Technology
+              - college_logo: sstu.png
+                college_name: СГТУ
+                college_url: https://sstu.ru
+                college_degree: Инженер
+                description: по специальности Радиотехника
                 visibility: true
 
 # Projects
-author_project_details:
-              - project_thumbnail: gamershub.png
-                project_title: Gamers Hub
-                project_description: A Platform built for Gamers and Game Devs
-                project_url: https://gamershub.in
-                visibility: true
-              - project_thumbnail: hack4r.PNG
-                project_title: Hack4r
-                project_description: A Platform built for Hackers and Penetration Testers
-                project_url: https://hack4r.com
-                visibility: true
+# author_project_details:
+#               - project_thumbnail: gamershub.png
+#                 project_title: Malcore Bible на русском
+#                 project_description: Перевод Malcore Bible на русский
+#                 project_url: https://imcool.ru
+#                 visibility: true
+#               - project_thumbnail: hack4r.PNG
+#                 project_title: Этот сайт
+#                 project_description: Мой персональный вебсайт с блогом
+#                 project_url: https://vladgu.ru
+#                 visibility: true
 
 # social links
-twitter_username: xplor4r
-github_username:  sujaykundu777
-instagram_username: xplor4r
+# twitter_username: Fulminatrix
+# github_username:  sudo-vladguru
+# instagram_username: fulminatrix
 # facebook_username: johndoe
 # linkedin_username: johndoe
 # behance_username: johndoe
@@ -88,14 +83,14 @@ instagram_username: xplor4r
 # hyvor_talk_website_id: 476
 
 # wakatime username (coding activity)
-wakatime_username: sujaykundu777
+# wakatime_username: sujaykundu777
 
 # mailchimp embedded form url (newsletter):
-mailchimp_form_url: https://sujaykundu.us10.list-manage.com/subscribe/post?u=50bab1c85eae24ecfb0f68361&amp;id=3a2dd721d0
+# mailchimp_form_url: https://sujaykundu.us10.list-manage.com/subscribe/post?u=50bab1c85eae24ecfb0f68361&amp;id=3a2dd721d0
 
 # contact form - (choose formspress or getform)
 # getform_endpoint: 83b703c3-9e47-4df4-ac55-e24d7eb02abc
-formspree_email: johndoe@gmail.com
+# formspree_email: write@vladgu.ru
 
 # releases - widget can be (sidebar, modal or embed)
 olvy_organization: devlopr
@@ -109,7 +104,7 @@ permalink: pretty
 # Choose what to show ( can be true or false)
 show_author_work_experiences: true
 show_author_education_details: true
-show_author_project_details: true
+show_author_project_details: false
 
 # pagination of posts
 paginate: 4
@@ -134,9 +129,9 @@ paginate_path: "/blog/page/:num/"
 
 collections:
   products:
-    output: true
+    output: false
   authors:
-    output: true
+    output: false
 
 defaults:
   -
