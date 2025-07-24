@@ -1,7 +1,7 @@
-title: Vlad Minakov
-subtitle: Персональный сайт
+title: Vlad
+subtitle: Персональный блог
 description: >- # this means to ignore newlines until "baseurl:"
-  Добро пожаловать на личный сайт Владислава Минакова.
+  Добро пожаловать в мой личный блог.
 
 url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -20,7 +20,7 @@ urls:
 # Edit Author details (For multi authors check _data/authors.yml)
 
 author_logo: profile.png
-author: Влад Минаков
+author: Влад
 author_bio: Привет. Меня зовут Владислав, я - системный администратор, но работал и учителем информатики и владельцем бизнеса. Кроме того в сфере моих интересов также информационная безопасность, а еще я интересуюсь всеми современными технологиями - от нейросетей до космоса
 author_email: "write@vladgu.ru"
 author_location: Россия
